@@ -20,7 +20,7 @@ public class SplashActivity extends AppCompatActivity {
 //                .putString(TOKEN, "jakiś token")
 //                .commit();
         Intent intent = null;
-        if(!prefs.contains(TOKEN)){
+        if (prefs.contains(TOKEN)) {
             intent = new Intent(this, MainActivity.class);
 
         } else {
